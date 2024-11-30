@@ -1,0 +1,20 @@
+*{
+  margin: 0px;
+}
+body{
+  background-color: whitesmoke;
+  color:black;
+}
+.img1{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+/* .container{
+  position: relative;
+} */
+/* .image{
+  position:absolute;
+   
+} */

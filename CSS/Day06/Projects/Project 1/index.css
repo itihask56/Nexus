@@ -1,0 +1,12 @@
+header{
+    background-color: aqua;
+    height: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+ 
+}
+main{
+    padding-top: 30px;
+}
