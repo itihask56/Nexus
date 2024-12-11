@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+
+  padding: 1rem;
+}
+h1 {
+  color: white;
+}
+
+.right button{
+  font-size: 1.5rem;
+  margin-left: 0.8rem;
+  color: white;
+  border:none;
+  background-color: red;
+  padding:.3rem;
+  cursor: pointer;
+  
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+    background-color: gray;
+    /* align-items: center; */
+}
+.searching{
+    font-size: 1rem;
+    padding: .5rem;
+    width: 400px;
+    max-width: 60%;
+    border-radius: .5rem;
+}
+.search> button{
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    background-color: red;
+    color: white;
+  
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./assets/mover.jpg");
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+     
+    /* height: 6rem; */
+
+}
+.hero>h1{
+    background-color: black;
+}
+.hero>button{
+    background-color: red;
+    color: white;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.mover{
+    text-align: center;
+    padding-top: 1rem;
+}
+.mover>h1{
+    
+  
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.movie{
+    display: flex;
+    /* justify-content: center; */
+    overflow-x: scroll;
+    
+}
+.card{
+    border: 0.5rem solid rgb(207, 201, 201);
+    background-color:rgb(226, 221, 221) ;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.images{
+    height: 400px;
+  
+}
+.card>h2{
+    font-size: 1.5rem;
+   
+}
+
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+   
+}
+.bot>img{
+    max-width: 80%;
+    border-radius: 10px;
+  
+}
+
+@media(max-width:650px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .movie{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+    }
+   
+
+}
