@@ -14,6 +14,7 @@ console.log(arr[2]);
 const newArr = arr;
 console.log(arr == newArr); //output true as it points to same memory location
 
+// it copies array to a different memory location
 const newArr2 = structuredClone(arr);
 console.log(arr == newArr2);
 
