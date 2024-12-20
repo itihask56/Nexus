@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color:antiquewhite;
+}
+.container{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* align-content: center; */
+}
+.box{
+   
+    height: 100px;
+    width: 100px;
+    border: 0.5rem solid black;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+}
